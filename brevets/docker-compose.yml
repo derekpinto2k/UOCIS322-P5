@@ -7,7 +7,7 @@ services:
         volumes:
             - .:/app/
         ports:
-            - "5000:5000"
+            - "6767:5000"
         depends_on:
             - ourdb
         environment:
